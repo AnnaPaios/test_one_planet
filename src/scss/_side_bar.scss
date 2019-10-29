@@ -1,0 +1,68 @@
+.side_bar {
+  padding: 20px 0 0 0;
+
+  &_header {
+    color: $bg-color;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    &_left {
+      span {
+        margin: 0 25px 0 0;
+        font-size: 1.3em;
+
+        .fa-caret-down {
+          float: right;
+          margin: 3px 0 0 -10px;
+        }
+      }
+    }
+    &_right {
+      span {
+        margin: 0 25px 0 0;
+      }
+    }
+  }
+
+  &_content {
+    &_box {
+      display: flex;
+
+      .user_section {
+        width: 45px;
+        padding: 35px 0 0 0;
+        color: $bg-pink;
+        font-weight: bold;
+        font-size: 1.5em;
+        .fa {
+          color: $bg-pink;
+          font-size: 18px;
+        }
+      }
+
+      .user_list {
+        flex: 1;
+
+        li {
+          display: flex;
+          align-items: center;
+          margin: 25px 0;
+        }
+        &_avatar {
+          img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+          }
+        }
+
+        &_name {
+          color: $bg-dark-gray;
+          font-weight: bold;
+          margin: 0 0 0 15px;
+        }
+      }
+    }
+  }
+}

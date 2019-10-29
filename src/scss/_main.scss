@@ -1,0 +1,61 @@
+body {
+  background: $main-bg-color;
+  font-family: 'andrewandreasplain';
+  font-size: 14px;
+}
+
+.border_bottom {
+  border-bottom: 1px solid #e6dfdf;
+}
+
+header {
+  height: 130px;
+  background: $bg-purple;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa,
+.fas {
+  color: $bg-color;
+}
+
+.main_block {
+  display: flex;
+  max-width: 885px;
+  margin: -60px auto 0;
+
+  @media screen and (max-width: $medium) {
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: $large) {
+    position: relative;
+    left: -30px;
+  }
+
+  @media screen and (min-width: $extra-large) {
+    max-width: 1050px;
+  }
+
+  @media screen and (min-width: $max-large) {
+    max-width: 1065px;
+  }
+
+  .side_bar {
+    width: 42%;
+
+    @media screen and (min-width: $extra-large) {
+      width: 40%;
+    }
+  }
+
+  .user_info {
+    flex: 1;
+    box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.3);
+    height: 100%;
+  }
+}
+
+
+
+

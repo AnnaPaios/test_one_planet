@@ -1,0 +1,1 @@
+module.exports = __webpack_public_path__ + "./assets/images/fa-regular-400.svg?20af3d0e89d84cfca261212bfea3cb28";
