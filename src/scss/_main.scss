@@ -19,6 +19,16 @@ header {
   color: $bg-color;
 }
 
+button {
+  background: none;
+  border: none;
+  outline: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+}
+
 .main_block {
   display: flex;
   max-width: 885px;

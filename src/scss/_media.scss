@@ -19,28 +19,40 @@
 
   .header_top_medium {
     display: inline-block;
-
-    .fa {
-      margin: 0 0 0 30px;
-    }
   }
 
-  .header {
-    height: 190px;
+  .user_info {
+    .header {
+      height: 190px;
+      padding: 40px 20px 50px;
 
-    &_title {
-      font-size: 54px;
-      bottom: 30px;
-      left: 80px;
+      button {
+        width: 20px;
+        height: 20px;
+        margin: 0 0 0 20px;
+      }
+
+      .fas,
+      .fa{
+        font-size: 1.1em;
+      }
+
+      &_title {
+        font-size: 54px;
+        bottom: 30px;
+        left: 80px;
+      }
     }
   }
 }
 
 @media screen and (min-width: $large) {
-  .header {
-    .star_block {
-      top: 30px;
-      right: -80px;
+  .user_info {
+    .header {
+      .star_block {
+        top: 30px;
+        right: -80px;
+      }
     }
   }
 }

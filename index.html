@@ -8,16 +8,20 @@
 </head>
 <body>
     <header class="hidden-sm"></header>
-    <div class="main_block">
+    <main class="main_block">
         <aside class="side_bar hidden-sm">
             <div class="side_bar_header">
                 <div class="side_bar_header_left">
-                    <span><i class="fa fa-bars"></i></span>
-                    <span>Title <i class="fa fa-caret-down"></i></span>
+                    <button type="button" tabindex="0"><i class="fa fa-bars"></i></button>
+                    <span>Title</span>
+                    <button type="button" tabindex="0"><i class="fa fa-caret-down"></i></button>
                 </div>
                 <div class="side_bar_header_right">
-                    <span><i class="fa fa-search"></i></span>
-                    <span><i class="fas fa-ellipsis-v"></i></span>
+                    <form action="#">
+                        <input type="search" name="search"  tabindex="0">
+                        <span><i class="fa fa-search"></i></span>
+                    </form>
+                    <button type="button" tabindex="0"><i class="fas fa-ellipsis-v"></i></button>
                 </div>
             </div>
             <div class="side_bar_content">
@@ -28,20 +32,28 @@
                     <div class="user_list border_bottom">
                         <ul>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_1.jpg" alt="user_1"></div>
-                                <div class="user_list_name">Carolyn Campbell</div>
+                                <a href="#" tabindex="1">
+                                    <img class="user_list_avatar" src="src/assets/images/user_1.jpg" alt="user_1 avatar">
+                                    <span class="user_list_name">Carolyn Campbell</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_2.jpg" alt="user_2"></div>
-                                <div class="user_list_name">Jennifer Carpenter</div>
+                                <a href="#" tabindex="2">
+                                    <img class="user_list_avatar" src="src/assets/images/user_2.jpg" alt="user_2 avatar">
+                                    <span class="user_list_name">Jennifer Carpenter</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_3.jpg" alt="user_3"></div>
-                                <div class="user_list_name">Jeffrey Walters</div>
+                                <a href="#" tabindex="3">
+                                    <img class="user_list_avatar" src="src/assets/images/user_3.jpg" alt="user_3 avatar">
+                                    <span class="user_list_name">Jeffrey Walters</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_4.jpg" alt="user_4"></div>
-                                <div class="user_list_name">Beverly Harris</div>
+                                <a href="#" tabindex="4">
+                                    <img class="user_list_avatar" src="src/assets/images/user_4.jpg" alt="user_4 avatar">
+                                    <span class="user_list_name">Beverly Harris</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -53,20 +65,28 @@
                     <div class="user_list border_bottom">
                         <ul>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_5.jpg" alt="user_5"></div>
-                                <div class="user_list_name">Brittany Delgado</div>
+                                <a href="#" tabindex="5">
+                                    <img class="user_list_avatar" src="src/assets/images/user_5.jpg" alt="user_5 avatar">
+                                    <span class="user_list_name">Brittany Delgado</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_6.jpg" alt="user_6"></div>
-                                <div class="user_list_name">Wayne Ray</div>
+                                <a href="#" tabindex="6">
+                                    <img class="user_list_avatar" src="src/assets/images/user_6.jpg" alt="user_6 avatar">
+                                    <span class="user_list_name">Wayne Ray</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_7.jpg" alt="user_7"></div>
-                                <div class="user_list_name">Rachal Ross</div>
+                                <a href="#" tabindex="7">
+                                    <img class="user_list_avatar" src="src/assets/images/user_7.jpg" alt="user_7 avatar">
+                                    <span class="user_list_name">Rachal Ross</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_8.jpg" alt="user_8"></div>
-                                <div class="user_list_name">Bruce Morales</div>
+                                <a href="#" tabindex="8">
+                                    <img class="user_list_avatar" src="src/assets/images/user_8.jpg" alt="user_8 avatar">
+                                    <span class="user_list_name">Bruce Morales</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -78,44 +98,52 @@
                     <div class="user_list border_bottom">
                         <ul>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_9.jpg" alt="user_9"></div>
-                                <div class="user_list_name">Anita Cloud</div>
+                                <a href="#" tabindex="9">
+                                    <img class="user_list_avatar" src="src/assets/images/user_9.jpg" alt="user_9 avatar">
+                                    <span class="user_list_name">Anita Cloud</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_10.jpg" alt="user_10"></div>
-                                <div class="user_list_name">Stephany Merphy</div>
+                                <a href="#" tabindex="10">
+                                    <img class="user_list_avatar" src="src/assets/images/user_10.jpg" alt="user_10 avatar">
+                                    <span class="user_list_name">Stephany Merphy</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_11.jpg" alt="user_11"></div>
-                                <div class="user_list_name">Tony Payet</div>
+                                <a href="#" tabindex="11">
+                                    <img class="user_list_avatar" src="src/assets/images/user_11.jpg" alt="user_11 avatar">
+                                    <span class="user_list_name">Tony Payet</span>
+                                </a>
                             </li>
                             <li>
-                                <div class="user_list_avatar"><img src="src/assets/images/user_12.jpg" alt="user_12"></div>
-                                <div class="user_list_name">Anny Mary</div>
+                                <a href="#" tabindex="12">
+                                    <img class="user_list_avatar" src="src/assets/images/user_12.jpg" alt="user_12 avatar">
+                                    <span class="user_list_name">Anny Mary</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </aside>
-        <main class="user_info">
+        <section class="user_info">
             <div class="header">
                 <div class="header_top">
-                    <span class="hidden-md"><i class="fas fa-arrow-left"></i></span>
+                    <button type="button"  tabindex="0" class="hidden-md"><i class="fas fa-arrow-left"></i></button>
                     <div class="header_top_right">
-                        <span><i class="fas fa-pencil-alt"></i></span>
-                        <span class="hidden-sm header_top_medium">
-                        <span><i class="fa fa-star"></i></span>
-                        <span> <i class="fa fa-share"></i></span>
-                    </span>
-                        <span><i class="fas fa-ellipsis-v"></i></span>
+                        <button type="button" tabindex="0"><i class="fas fa-pencil-alt"></i></button>
+                        <div class="hidden-sm header_top_medium">
+                         <button type="button" tabindex="0"><i class="fa fa-star"></i></button>
+                         <button type="button" tabindex="0"> <i class="fa fa-share"></i></button>
+                        </div>
+                        <button type="button" tabindex="0"><i class="fas fa-ellipsis-v"></i></button>
                     </div>
                 </div>
-                <div class="header_title">Ali Connors</div>
-                <div class="star_block">
+                <h1 class="header_title">Ali Connors</h1>
+                <button type="button" tabindex="0" class="star_block">
                     <i class="fa fa-star hidden-md"></i>
                     <i class="fa fa-plus hidden-sm"></i>
-                </div>
+                </button>
             </div>
             <div class="content">
                 <div class="content_item">
@@ -162,8 +190,8 @@
                     </div>
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+    </main>
 <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
 </html>
