@@ -50,6 +50,12 @@
         font-size: 1.1em;
         color: $bg-light-pink;
       }
+      
+      &:hover,
+      &:focus {
+        outline: none;
+        background: $bg-pink-dark;
+      }
     }
   }
 

@@ -19,6 +19,34 @@ header {
   color: $bg-color;
 }
 
+.btnIcon {
+  display: inline-block;
+  width: 48px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: $bg-color;
+
+  &:hover,
+  &:focus {
+    color: $purple-light;
+    outline: none;
+  }
+
+  &:hover,
+  &:focus {
+    span {
+      color: $purple-light;
+    }
+  }
+
+  &.filterName {
+    width: 52px;
+    font-size: 1.2em;
+  }
+}
+
 button {
   background: none;
   border: none;
